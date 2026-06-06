@@ -2,6 +2,8 @@
 
 **RedPandaDNS** — это интуитивно понятное, быстрое и современное Android-приложение для динамического переключения DNS-серверов в один клик. Приложение объединяет передовые сетевые технологии с приятным визуальным дизайном, украшенным милым маскотом — Красной Пандой.
 
+[![Скачать APK](https://img.shields.io/badge/Скачать-APK%20v1.0.0-blue?style=for-the-badge&logo=android&logoColor=white)](https://github.com/t1m0nch1k/DNS-swither/releases/tag/1.0.0)
+
 Приложение спроектировано с использованием **Kotlin**, **Jetpack Compose** и современных архитектурных рекомендаций Google (MVVM, Clean Architecture).
 
 ---
