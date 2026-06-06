@@ -1,0 +1,62 @@
+# =========================================================================
+# REDPANDADNS - Android & Gradle COMPREHENSIVE .GITIGNORE
+# =========================================================================
+
+# Gradle build artifacts and system directories
+.gradle/
+build/
+**/build/
+.kotlin/
+.build-outputs/
+
+# Android Studio / IntelliJ IDEA configuration files
+.idea/
+*.iml
+*.ipr
+*.iws
+.navigation/
+captures/
+.externalNativeBuild/
+.cxx/
+local.properties
+
+# Virtual devices, backups and logs
+*.log
+*.temp
+*.tmp
+temp/
+tmp/
+
+# OS-specific temporary files (macOS, Windows, Linux)
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+*.swp
+
+# Environment Secrets and Client Configurations
+# Keep actual values private, but allow templates (.env.example) to be committed
+.env
+.env.*
+!.env.example
+
+# Android Signing / Keystore configurations
+*.jks
+*.keystore
+*.pepk
+!debug.keystore
+!debug.keystore.base64
+
+# Google Services / Crashlytics (only commit templates, ignore private credentials)
+# google-services.json
+
+# Built binaries, libraries, and outputs
+*.apk
+*.aar
+*.ap_
+*.der
+classes.dex

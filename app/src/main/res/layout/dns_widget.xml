@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FF1E1E1E"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/widget_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DNS"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/widget_btn_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:maxLines="1"
+        android:visibility="gone"
+        android:ellipsize="end" />
+
+    <Button
+        android:id="@+id/widget_btn_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:maxLines="1"
+        android:visibility="gone"
+        android:ellipsize="end" />
+
+    <Button
+        android:id="@+id/widget_btn_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:maxLines="1"
+        android:visibility="gone"
+        android:ellipsize="end" />
+
+    <Button
+        android:id="@+id/widget_btn_off"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OFF"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FF4444" />
+
+</LinearLayout>

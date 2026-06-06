@@ -1,0 +1,6 @@
+{
+  "name": "RedPandaDNS",
+  "description": "Switch DNS servers dynamically using a high-performance Local VPN engine or secure system Private DNS mode.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
